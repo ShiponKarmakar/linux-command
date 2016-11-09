@@ -31,7 +31,7 @@ wine ./setup-lightshot.exe
         dropbox autostart y
 ```
 
-### Linux GLMP (Photoshop) install
+### Linux GIMP (Photoshop) install
 ```
 sudo apt-get install gimp 
 ```
