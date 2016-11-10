@@ -139,3 +139,10 @@ sudo add-apt-repository ppa:fixnix/netspeed
 sudo apt-get update
 sudo apt-get install indicator-netspeed-unity
 ```
+
+### Weather Check
+```
+~: curl wttr.in/your Location
+
+~: curl wttr.in/brahmanbaria
+```
