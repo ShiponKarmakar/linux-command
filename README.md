@@ -132,3 +132,10 @@ sudo apt-get install synaptic vlc
 sudo apt-get install fonts-beng fonts-beng-extra fonts-lohit-beng-bengali;
 apt-cache search bengali
 ```
+
+### Unity Internet Speed Meter
+```
+sudo add-apt-repository ppa:fixnix/netspeed
+sudo apt-get update
+sudo apt-get install indicator-netspeed-unity
+```
