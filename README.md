@@ -140,9 +140,14 @@ sudo apt-get update
 sudo apt-get install indicator-netspeed-unity
 ```
 
+### Web Siter Coper Httrack
+```
+sudo apt-get install webhttrack
+```
+
 ### Weather Check
 ```
-~: curl wttr.in/your Location
+curl wttr.in/your Location
 
-~: curl wttr.in/brahmanbaria
+curl wttr.in/brahmanbaria
 ```
