@@ -121,6 +121,12 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
 ```
+### Install Notepadqq in Ubuntu
+```
+sudo add-apt-repository ppa:notepadqq-team/notepadqq
+sudo apt-get update
+sudo apt-get install notepadqq
+```
 
 ### VLC install
 ```
@@ -150,4 +156,8 @@ sudo apt-get install webhttrack
 curl wttr.in/your Location
 
 curl wttr.in/brahmanbaria
+```
+### Deluge BitTorrent Client Installer
+```
+sudo apt-get install deluge
 ```
