@@ -161,3 +161,9 @@ curl wttr.in/brahmanbaria
 ```
 sudo apt-get install deluge
 ```
+### Flash Player install
+```
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install freshplayerplugin
+```
