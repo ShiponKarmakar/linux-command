@@ -74,6 +74,28 @@ sudo apt-get install --install-recommends winehq-devel
 sudo apt-get install tasksel
 sudo tasksel install lamp-server
 ```
+### Xampp Install
+```
+For Ubuntu 32 bit :
+wget https://www.apachefriends.org/xampp-files/7.0.2/xampp-linux-7.0.2-1-installer.run
+sudo chmod +x xampp-linux-7.0.2-1-installer.run
+sudo ./xampp-linux-7.0.2-1-installer.run
+
+For Ubuntu 64 bit :
+wget https://www.apachefriends.org/xampp-files/7.0.2/xampp-linux-x64-7.0.2-1-installer.run
+sudo chmod +x xampp-linux-x64-7.0.2-1-installer.run
+sudo ./xampp-linux-x64-7.0.2-1-installer.run
+
+How to Remove
+sudo /opt/lampp/lampp stop
+sudo rm -rf /opt/lampp
+
+File permission
+cd /opt/lampp
+sudo chmod 777 htdocs
+```
+
+ 
 
 ### Brackets Code Editor Install
 ```
@@ -163,7 +185,10 @@ sudo apt-get install deluge
 ```
 ### Flash Player install
 ```
-sudo add-apt-repository ppa:nilarimogard/webupd8
-sudo apt-get update
-sudo apt-get install freshplayerplugin
+sudo apt-get install firefox ubuntu-restricted-extras
+
+sudo apt-get install ttf-mscorefonts-installer unrar gstreamer0.10-plugins-bad-multiverse libavcodec-extra-53 gstreamer0.10-plugins-ugly gstreamer1.0-plugins-ugly adobe-flashplugin flashplugin-installer gstreamer0.10-plugins-bad gstreamer1.0-plugins-bad gstreamer0.10-ffmpeg gstreamer1.0-libav gstreamer0.10-fluendo-mp3 gstreamer1.0-fluendo-mp3 chromium-codecs-ffmpeg-extra
+
+sudo apt-get install flashplugin-installer
+sudo apt-get install adobe-flashplugin
 ```
