@@ -86,11 +86,11 @@ wget https://www.apachefriends.org/xampp-files/7.0.2/xampp-linux-x64-7.0.2-1-ins
 sudo chmod +x xampp-linux-x64-7.0.2-1-installer.run
 sudo ./xampp-linux-x64-7.0.2-1-installer.run
 
-How to Remove
+How to Remove:
 sudo /opt/lampp/lampp stop
 sudo rm -rf /opt/lampp
 
-File permission
+File permission:
 cd /opt/lampp
 sudo chmod 777 htdocs
 ```
