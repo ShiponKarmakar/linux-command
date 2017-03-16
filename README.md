@@ -179,10 +179,12 @@ curl wttr.in/your Location
 
 curl wttr.in/brahmanbaria
 ```
+
 ### Deluge BitTorrent Client Installer
 ```
 sudo apt-get install deluge
 ```
+
 ### Flash Player install
 ```
 sudo apt-get install firefox ubuntu-restricted-extras
@@ -191,4 +193,23 @@ sudo apt-get install ttf-mscorefonts-installer unrar gstreamer0.10-plugins-bad-m
 
 sudo apt-get install flashplugin-installer
 sudo apt-get install adobe-flashplugin
+```
+
+### Color Picker
+```
+sudo apt-get install gpick
+```
+
+### File Zilla
+```
+sudo add-apt-repository ppa:adabbas/1stppa
+sudo apt-get update
+sudo apt-get install filezilla
+```
+
+### Google Drive Install
+```
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install grive
 ```
